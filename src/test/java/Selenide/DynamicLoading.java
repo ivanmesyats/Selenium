@@ -12,7 +12,7 @@ public class DynamicLoading {
     private SelenideElement hiddenResult = $x("//*[@id=\"content\"]/div/a[1]");
     private SelenideElement byFact = $x("//*[@id=\"content\"]/div/a[2]");
 
-    public SelenideElement startButton = $x("//*[@id=\"start\"]/button");
+    private SelenideElement startButton = $x("//*[@id=\"start\"]/button");
 
     private SelenideElement loading = $x("//*[@id=\"loading\"]");
 
