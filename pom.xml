@@ -87,7 +87,14 @@
             <version>7.12.1</version>
             <scope>test</scope>
         </dependency>
-<!--                <dependency>-->
+        <!-- https://mvnrepository.com/artifact/com.codeborne/selenide -->
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>6.16.0</version>
+        </dependency>
+
+        <!--                <dependency>-->
 <!--                    <groupId>org.junit</groupId>-->
 <!--                    <artifactId>junit5-engine</artifactId>-->
 <!--                    <version>5.0.0-ALPHA</version>-->
